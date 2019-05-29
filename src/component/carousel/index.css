@@ -1,0 +1,17 @@
+.banner-center-text {
+    color: #ffffff;
+    margin-left: 1%;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, 30%);
+    font-family: btm;
+    -webkit-text-stroke: #250b07;
+}
+
+@media (min-width: 992px){
+.banner-center-text p:first-child {
+    font-size: 80px;
+    font-weight: bolder;
+    text-shadow: 2px 5px 10px #250b07;
+}}
